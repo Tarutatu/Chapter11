@@ -3,6 +3,7 @@ package kadai3;
 public abstract class Character {
     String name;
     int hp;
+
     public void run() {
         System.out.println(this.name + "は大笑いしながら逃げ出した");
     }

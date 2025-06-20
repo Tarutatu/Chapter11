@@ -1,6 +1,13 @@
 package kadai3;
 
 public class Fool extends Character implements Human {
+    String name;
+    int hp;
+
+    public Fool(String name, int hp) {
+        this.name = name;
+        this.hp = hp;
+    }
 
     public void attack(Matango m) {
         System.out.println(this.name + "は戦わず遊んでいる");
